@@ -13,6 +13,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'year',
+        message: 'What is year is it?'
+    },
+    {
+        type: 'input',
         name: 'email',
         message: 'What is your email address?'
     },

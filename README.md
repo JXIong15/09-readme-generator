@@ -1,4 +1,10 @@
 # 09 Node.js Homework: Professional README Generator
+'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+
+Licensed under the [MIT License](LICENSE).
+
+
+-----
 
 ## Your Task
 
@@ -13,13 +19,7 @@ Because this application won’t be deployed, you’ll also need to provide a li
 ## Acceptance Criteria
 
 ```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+
 WHEN I choose a license for my application from a list of options
 THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
 WHEN I enter my GitHub username
@@ -36,7 +36,6 @@ Here are some guidelines to help you get started:
 
 * Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
 
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
 
 * Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
 

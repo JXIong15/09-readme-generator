@@ -30,4 +30,4 @@
   
   ## License
   Licensed under the [MIT License](LICENSE)
-  <br> Copyright ©️ 2021  jxiong15
+  <p align="center">Copyright ©️ 2021  jxiong15</p>

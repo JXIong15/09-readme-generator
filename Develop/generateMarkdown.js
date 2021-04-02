@@ -3,10 +3,10 @@ const fs = require("fs");
 const path = require("path");
 
 // License Files
-const generateMIT = require("./Licenses/MIT.js");
-const generateGPL = require("./Licenses/GPL.js");
-const generateApache = require("./Licenses/APACHE.js");
-const generateBSD = require("./Licenses/BSD.js");
+const generateMIT = require("./Assets/Licenses/MIT.js");
+const generateGPL = require("./Assets/Licenses/GPL.js");
+const generateApache = require("./Assets/Licenses/APACHE.js");
+const generateBSD = require("./Assets/Licenses/BSD.js");
 
 // Returns a license badge based on which license is passed in
 // If there is no license, returns an empty string
@@ -98,7 +98,8 @@ function generateMarkdown(data) {
   
   ## License
   Licensed under the [${data.license} License](LICENSE)
-  <br> Copyright ©️ ${data.year}  ${data.username}`;
+  
+  <p align="center">Copyright ©️ ${data.year}  ${data.username}</p>`;
   }
 
 module.exports = generateMarkdown;

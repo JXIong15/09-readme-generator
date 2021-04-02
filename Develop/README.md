@@ -1,1 +1,1 @@
-undefined
+[MIT License](LICENSE)

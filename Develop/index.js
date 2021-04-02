@@ -16,21 +16,21 @@ const questions = [
         name: 'year',
         message: 'What is year is it?'
     },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'What is your email address?'
-    },
-    {
-        type: 'input',
-        name: 'title',
-        message: 'What is your project title?'
-    },
-    {
-        type: 'input',
-        name: 'description',
-        message: 'Write a short description of your project.'
-    },
+    // {
+    //     type: 'input',
+    //     name: 'email',
+    //     message: 'What is your email address?'
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'title',
+    //     message: 'What is your project title?'
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'description',
+    //     message: 'Write a short description of your project.'
+    // },
     {
         type: 'list',
         name: 'license',
@@ -64,9 +64,6 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     let rm = fs.writeFileSync(path.join(process.cwd(), fileName), data)
-    if(err) {
-        console.log(err);
-    }
     console.log("Your README has been generated!");
     return rm;
 }
@@ -74,8 +71,7 @@ function writeToFile(fileName, data) {
 // Initializes app by prompting the questions for the desired ReadMe file.
 function init() {
     inquirer.prompt(questions).then((responses) => {
-        writeToFile("README.md", generateMarkdown);
-        // console.log(responses);
+        writeToFile("README.md", generateMarkdown(responses));
     })
 }
 

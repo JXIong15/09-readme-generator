@@ -1,4 +1,4 @@
-// Include packages needed for this application
+// Included packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
@@ -34,7 +34,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'What kind of lisence should your project have?',
+        message: 'What kind of licence should your project have?',
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
     },
     // {
@@ -61,7 +61,7 @@ const questions = [
     // }
 ];
 
-// TODO: Create a function to write README file
+// Writes README file
 function writeToFile(fileName, data) {
     let rm = fs.writeFileSync(path.join(process.cwd(), fileName), data)
     console.log("Your README has been generated!");

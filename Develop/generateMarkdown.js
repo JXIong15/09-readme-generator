@@ -1,4 +1,7 @@
 // License Files
+const fs = require("fs");
+const path = require("path");
+
 const generateMIT = require("./Licenses/MIT.js");
 const generateGPL = require("./Licenses/GPL.js");
 const generateApache = require("./Licenses/APACHE.js");
@@ -44,13 +47,13 @@ function renderLicenseLink(license) {
 function renderLicenseSection(data) {
   switch(data.license) {
     case "MIT": 
-      return generateMIT(data);
+      return fs.writeFileSync(path.join(process.cwd(), "LICENSE"), generateMIT(data))
     case "APACHE 2.0":
-      return generateApache(data);    
+      return fs.writeFileSync(path.join(process.cwd(), "LICENSE"), generateApache(data))
     case "GPL 3.0": 
-      return generateGPL(data);  
+      return fs.writeFileSync(path.join(process.cwd(), "LICENSE"), generateGPL(data))
     case "BSD 3": 
-      return generateBSD(data);  
+      return fs.writeFileSync(path.join(process.cwd(), "LICENSE"), generateBSD(data))
     case "None": 
       return "";
   }
@@ -61,10 +64,10 @@ function renderLicenseSection(data) {
 function generateMarkdown(data) {
   let badge = renderLicenseBadge(data.license);
   let link = renderLicenseLink(data.license);
-  let section = renderLicenseSection(data);
+  renderLicenseSection(data);
+  console.log("Your License has been generated!")
   
-return `[${badge}](${link})
-${section}`;
+return `[${data.license} License](LICENSE)`;
   return `# ${data.title}
   [${badge}](${link})
 
@@ -97,8 +100,7 @@ ${section}`;
   * For further questions, contact me here: (mailto: ${data.email})
   
   ## License
-
-
+  Licensed under the [${data.license} License](LICENSE)
   Copyright ©️ ${data.year}  ${data.username}`;
   }
 

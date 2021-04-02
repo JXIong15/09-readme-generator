@@ -39,10 +39,9 @@ function renderLicenseLink(license) {
     case "None": 
       return "";
   }
-  return link;
 }
 
-// TODO: Create a function that returns the license section of README
+// Creates a LICENSE file and returns a link to it
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
   switch(data.license) {
@@ -57,7 +56,6 @@ function renderLicenseSection(data) {
     case "None": 
       return "";
   }
-  return section;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -67,7 +65,6 @@ function generateMarkdown(data) {
   renderLicenseSection(data);
   console.log("Your License has been generated!")
   
-return `[${data.license} License](LICENSE)`;
   return `# ${data.title}
   [${badge}](${link})
 
@@ -103,7 +100,5 @@ return `[${data.license} License](LICENSE)`;
   Licensed under the [${data.license} License](LICENSE)
   Copyright ©️ ${data.year}  ${data.username}`;
   }
-
-// line 98:   ${lSection}
 
 module.exports = generateMarkdown;

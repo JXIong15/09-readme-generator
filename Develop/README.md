@@ -1,15 +1,14 @@
-# test
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Test Project [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  this is just a test description
+  This is only a test.
 
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributions](#contributions)
-  * [Tests](#test)
+  * [Tests](#tests)
   * [Questions](#questions)
   * [License](#license)
   
@@ -17,18 +16,18 @@
   npm i
 
   ## Usage
-  This is just a test, so no need to know anything. it doesn't do much yet.
+  Nothing.
 
   ## Contributions
-  undefined
+  This is just a test.
 
   ## Tests
   npm test
 
   ## Questions
   * To see more of my projects, check out my GitHub profile: [jxiong15](https://github.com/jxiong15)
-  * For further questions, contact me here: (mailto: jxyooj12@gmail.com)
+  * For further questions, contact me here: jxiongtest@gmail.com
   
   ## License
-  Licensed under the [GPL 3.0 License](LICENSE)
-  Copyright ©️ 2021  jxiong15
+  Licensed under the [MIT License](LICENSE)
+  <br> Copyright ©️ 2021  jxiong15

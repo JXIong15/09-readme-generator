@@ -8,7 +8,7 @@
 * [Tasks Completed](#tasks-completed)
 * [Future Idea](#future-idea)
 * [Demo](#demo)
-* [Sources](#sources-APIs)
+* [Sources](#sources)
 * [License](#license)
 
 
@@ -48,7 +48,7 @@
 
 ## Demo
 <p align="center">
-    <img src="./Develop/Assets/demo.gif" width="50%" height="50%" stylealt="demo"/> 
+    <img src="./Develop/Assets/demo.gif" stylealt="demo"/> 
 </p>
 
 

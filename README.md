@@ -48,7 +48,7 @@
 
 ## Demo
 <p align="center">
-    <img src="./Develop/Assets/demo.gif" stylealt="demo"/> 
+    <img src="./Develop/Assets/demo.gif" width="100% height="100%" stylealt="demo"/> 
 </p>
 
 

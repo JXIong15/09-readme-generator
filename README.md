@@ -7,6 +7,7 @@
 * [Functionality](#functionality)
 * [Tasks Completed](#tasks-completed)
 * [Technologies Used](#technologies-used)
+* [Installations](#installations)
 * [Future Idea](#future-idea)
 * [Demo](#demo)
 * [Sources](#sources)
@@ -41,6 +42,11 @@
 	* created a function to retrieve the license link to make the badge click to more information about the license
 	* created a function, similar to the generateMarkdown function in the index.js file, that creates a LICENSE file with the user-input information
 	* in the generateMarkdown(data) function, used a tag-template to create the content for the README file. This is then returned to the index.js file and a README.md file is created with the user-inputs.
+
+
+## Installations
+* Download [Node and npm](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs)
+* Then, download the Inquiere Package by typing, "npm install inquirer" in your command line.
 
 
 ## Technologies Used

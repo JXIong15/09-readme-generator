@@ -6,9 +6,11 @@
 * [Introduction](#introduction)
 * [Functionality](#functionality)
 * [Tasks Completed](#tasks-completed)
+* [Technologies Used](#technologies-used)
+* [Installations](#installations)
 * [Future Idea](#future-idea)
 * [Demo](#demo)
-* [Sources](#sources-APIs)
+* [Sources](#sources)
 * [License](#license)
 
 
@@ -42,13 +44,26 @@
 	* in the generateMarkdown(data) function, used a tag-template to create the content for the README file. This is then returned to the index.js file and a README.md file is created with the user-inputs.
 
 
+## Installations
+* Download [Node and npm](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs)
+* Then, download the Inquiere Package by typing, "npm install inquirer" in your command line.
+
+
+## Technologies Used
+* JavaScript
+* Node
+* Inquirer
+* Terminal/Command Line
+* Txt Files
+
+
 ## Future Idea
 * Using the comand line to somehow input tests to display on the README. Tests like images and demos.
 
 
 ## Demo
 <p align="center">
-    <img src="./Develop/Assets/demo.gif" width="50%" height="50%" stylealt="demo"/> 
+    <img src="./Develop/Assets/demo.gif" width="100% height="100%" stylealt="demo"/> 
 </p>
 
 

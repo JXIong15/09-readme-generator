@@ -63,9 +63,14 @@ const questions = [
 
 // Writes README file
 function writeToFile(fileName, data) {
-    let rm = fs.writeFileSync(path.join(process.cwd(), fileName), data)
-    console.log("Your README has been generated!");
-    return rm;
+    try {
+        let rm = fs.writeFileSync(path.join(process.cwd(), fileName), data)
+        console.log("Your README has been generated!");
+        return rm;
+    }
+    catch {
+        return console.log("README Generator failed.");
+    }
 }
 
 // Initializes app by prompting the questions for the desired ReadMe file.

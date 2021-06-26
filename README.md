@@ -17,7 +17,7 @@
  ## Introduction
  Uses node and the command line to generate a README file along with a LICENSE file for the user-specified inputs.
  * GitHub Repository: https://github.com/JXIong15/09-readme-generator
- * Video Demonstration: https://drive.google.com/file/d/1oj2ipnA7n120UpnVb8gouwQNRhDQUU_o/view
+ * Video Demonstration: https://drive.google.com/file/d/1uYULard9VUnT8aOY83DiKTmFyg_2WsSt/view
 	* Sample [README.md](./Develop/README.md)
 	* Sample [LICENSE](./Develop/LICENSE)
 
